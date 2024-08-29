@@ -1,6 +1,4 @@
 import React from 'react'
-import Navbar from '../../components/navbar/Navbar'
-import HeroImage from '../../components/heroImage'
 import "./styles.css"
 import LoaderSvg from '../../components/loader/LoaderSvg'
 

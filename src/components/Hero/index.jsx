@@ -1,10 +1,9 @@
-import React, { useState } from "react";
+import React from "react";
 import Navbar from "../navbar/Navbar";
 import "./styles.css";
 import HeroImage from "../heroImage";
 
 import { useSelector } from "react-redux";
-import MainContent from "../main/MainContent";
 const Hero = ({children}) => {
   const theme = useSelector((state) => state.darkTheme.theme);
 

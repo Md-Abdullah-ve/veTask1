@@ -9,9 +9,9 @@ const darkTheme = createSlice({
     setTheme: (state, action) => {
       console.log("redux console", action.payload);
       console.log("redux theme", state.theme)
-      {state
+      state
         ? (state.theme = action.payload)
-        : (state.theme = state)}
+        : (state.theme = state)
     },
   },
 });

@@ -5,7 +5,7 @@ const HeroImage = () => {
   return (
     <div className="hero-img-container">
       <div className="hero-image">
-        <img src="/main.png" alt="hero image" />
+        <img src="/main.png" alt="hero " />
       </div>
       <div className="btns">
         <div>
@@ -39,7 +39,7 @@ const HeroImage = () => {
           Made In Heaven
           </p>
         <div className="content-img">
-          <img src="/main.png" alt="content image" />
+          <img src="/main.png" alt="content " />
         </div>
       </div>
     </div>
