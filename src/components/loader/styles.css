@@ -1,0 +1,16 @@
+.container {
+  width: fit-content;
+  /* height: 100%; */
+  /* border: 2px solid blue; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5vw;    
+}
+.container img {
+  margin-right: 10px; /* Adjust spacing between SVG and text */
+}
+.container span {
+  color: white;
+  font-size: large;
+}

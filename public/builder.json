@@ -1,0 +1,113 @@
+const jsonnl1 = {
+    style: {
+        blocksClassName: `d-flex gap-0-imp  bg-F1ECCE `,
+        sectionBackgroundColor: `#F1ECCE`,
+        padding: 2,
+        mblocksClassName:  `padding-LR-36 flex-direction-column align-items-center`,
+        viewSubBlockOptions: [
+            { title: true
+            },
+            { element: true
+            },
+        ],
+    },
+    blocks: [
+        {
+            className:
+                `bg-D2C585 d-flex flex-direction-column justify-content-center w-100p `,
+            mclassName: `padding-16-20  `,
+            subBlocks: [
+                {
+                    type: `text`,
+                    content: `<p>YOUR STORYTELLERS.</p>`,
+                    divStyles: {
+                        paddingLeft: `100px`,
+                        color: `#140F06`,
+                        fontFamily: `Cormorant Garamond`,
+                        fontSize: `50px`,
+                        fontWeight: 700,
+                        lineHeight: `101%`,
+                        paddingBottom: `26px`,
+                        borderBottom: `1px solid #EAEADE`,
+                    },
+                    mclassName:
+                        `zoom-50-p padding-bottom-16-imp m-bottom-16-imp`,
+                },
+                {
+                    type: `text`,
+                    content:
+                        `<p>Our cinematic style of storytelling produces, rich, soulful,and timeless wedding photography. Our unique editing style rets a mood and atmosphere which crete magical results, transporting you right back to your wedding day.</p>`,
+                    divStyles: {
+                        width: `257px`,
+                        marginLeft: `100px`,
+                        color: ` #2F2D26`,
+                        textAlign: `justify`,
+                        fontFamily: `Cormorant Garamond`,
+                        fontSize: `18px`,
+                        fontWeight: 500,
+                        lineHeight: `27px`,
+                        textTransform: `lowercase`,
+                        marginTop: `30px`,
+                    },
+                    mclassName: `margin-0-imp w-100p-imp padding-bottom-16-imp`,
+                },
+            ],
+        },
+        {
+            className:
+                `bg-F1ECCE padding-70-104 position-relative border-right-d0c27d width-378 h-100p`,
+            mclassName:
+                `padding-0-imp h-362-imp w-100p-imp w-100p-imp border-bottom-d0c27d`,
+            subBlocks: [
+                {
+                    type: `image`,
+                    divStyles: {
+                        width: `360px`,
+                        height: `595px`,
+                        backgroundColor: `#D0D0D0`,
+                        position: `absolute`,
+                        left: -30,
+                    },
+                    mclassName: `zoom-50-p pg-img-position`,
+                },
+            ],
+        },
+        {
+            className:
+                `bg-F1ECCE d-flex flex-direction-column align-items-center gap-28 `,
+            subBlocks: [
+                {
+                    type: `shape`,
+                    shape: `circle`,
+                    divStyles: {
+                        zoom: 0.7,
+                        margin: `141px 68px 37px 68px`,
+                        width: `fit-content`,
+                    },
+                    mclassName: `zoom-40-imp`,
+                },
+                {
+                    type: `text`,
+                    content:
+                        `<p>Our cinematic style of storytelling produces, rich, soulful,and timeless wedding photography. Our unique editing style rets a mood and atmosphere which crete magical results, transporting you right back to your wedding day.</p>`,
+                    divStyles: {
+                        minWidth: `192px`,
+                        maxWidth: `192px`,
+                        color: `#2F2D26`,
+                        fontFamily: `Cormorant Garamond`,
+                        fontSize: `18px`,
+                        fontWeight: 500,
+                        lineHeight: `27px`,
+                        textTransform: `lowercase`,
+                        marginBottom: `64px`,
+                    },
+                },
+            ],
+        },
+        {
+            className: `h-100p w-28 bg-D2C585`,
+            mclassName: `w-420-imp h-20-imp`,
+            subBlocks: [],
+        },
+    ],
+};

@@ -1,0 +1,30 @@
+.about-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+  }
+  .about-form h5 {
+    color: black;
+    font-size: large;
+  }
+  .about-form .dark {
+    font-size: large;
+    color: white;
+  }
+  .about-form div input {
+    padding: 1vh;
+    width: 18vw;
+    outline: none;
+    border: 0.2px solid gray;
+    border-radius: 0.5vh;
+    background-color: transparent;
+    /* box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5); */
+    color: black;
+  }
+  .about-form .dark input {
+    color: white;
+  }
+  .about-form div .error {
+    color: rgba(235, 103, 103, 0.788);
+    font-size: xx-small;
+  }

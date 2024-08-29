@@ -1,0 +1,27 @@
+.theme-container{
+    width: auto;
+    height: auto;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
+.theme-container .btn{
+    border-radius: 0.5vh;
+    padding: 1vh ;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+.theme-container .btn .icon{
+    font-size: large;
+    /* color: white; */
+    cursor: pointer;
+
+}
+.theme-container .btn .dark-mode{
+    color: white;
+}
+.theme-container .btn .light-mode{
+    color: #93492c;
+}

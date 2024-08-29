@@ -1,0 +1,121 @@
+.nav {
+  width: 4vw;
+  height: 90vh;
+  background-color: #f0dcd5;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1vh 0;
+  /* border: white; */
+  border-radius: 3vh;
+  box-shadow: inset 5px 5px 10px rgba(177, 174, 174, 0.315);
+  /* border:1px solid white ; */
+}
+.dark {
+  background-color: #1d1d1d !important;
+  color: white;
+}
+
+.nav .uppernav {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8vh;
+  /* padding: 1vh 0; */
+}
+.nav .uppernav .lock {
+  border-radius: 50%;
+  width: fit-content;
+  box-shadow: inset 5px 5px 10px rgba(238, 233, 233, 0.3);
+  display: flex;
+  padding: 1vh;
+  justify-content: center;
+  align-items: center;
+  font-size: large;
+  border-color: greenyellow;
+}
+.dark .uppernav .lock {
+  box-shadow: inset 5px 5px 10px rgba(8, 8, 8, 0.3);
+  color: white;
+}
+
+.nav .uppernav .navlist {
+  width: 100%;
+  /* border: 1; */
+  /* border-color: skyblue; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 3vh;
+  align-items: center;
+  /* padding: 1vh 0; */
+  /* border: 2px solid blue; */
+}
+.navlist .navitem:hover path,
+.navlower .navitem:hover path {
+  fill: #93492c;
+}
+.dark .uppernav .navlist .navitem:hover path,
+.dark .navlower .navitem:hover path {
+  fill: white;
+}
+
+.navlist .navitem {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5vh 1vh;
+  border: 2px solid transparent;
+}
+.navlist .navitem,
+.navlower .navitem,
+.navlist .navitem a {
+  color: #7d7d7d;
+  font-size: x-larger;
+  list-style: none;
+  cursor: pointer;
+  /* background-color: purple; */
+}
+.dark .uppernav .navlist .navitem,
+.dark .navlower .navitem,
+.dark .uppernav .navlist .navitem a {
+  color: #fff !important;
+  font-size: x-larger;
+  list-style: none;
+  cursor: pointer;
+  /* background-color: purple; */
+}
+.navlist .navitem Link {
+  color: transparent;
+}
+
+.navlist .active a {
+  color: #93492c;
+}
+.navlist .active {
+  /* border-left: ; */
+  color: white;
+  border-left: 2px solid #93492c;
+}
+.dark .uppernav .navlist .active a {
+  color: white;
+}
+.dark .uppernav .navlist .active {
+  color: white;
+  border-left: 2px solid white;
+  /* border-left: ; */
+}
+
+.navlower {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2vh;
+  padding: 1vh;
+}

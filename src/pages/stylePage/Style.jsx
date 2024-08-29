@@ -1,0 +1,18 @@
+import React from 'react'
+import Navbar from '../../components/navbar/Navbar'
+import HeroImage from '../../components/heroImage'
+import "./styles.css"
+import LoaderSvg from '../../components/loader/LoaderSvg'
+
+const Style = () => {
+  return (
+    <div className='style-container'>
+    
+     
+      <LoaderSvg/>
+    
+    </div>
+  )
+}
+
+export default Style
