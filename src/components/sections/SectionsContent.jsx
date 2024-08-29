@@ -161,7 +161,7 @@ const SectionsContent = () => {
   const height = 200; // Reduced height to fit better in the component
   const centerY = height / 2;
   const amplitude = height * 0.1;
-  const speed = 50;
+  const speed = 90;
   const degrees = 90;
 
   let charObjs;
